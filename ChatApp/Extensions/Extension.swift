@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+extension Date {
+    static func dateFromCustomString(customString: String) -> Date {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/mm/yyyy"
+        return dateFormatter.date(from: customString)!
+    }
+}
