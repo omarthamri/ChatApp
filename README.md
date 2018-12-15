@@ -1,6 +1,6 @@
 # ChatApp
 
-ChatApp is nice chat template written in swift
+ChatApp is a nice chat template written in swift
 
 # Screenshots
 
